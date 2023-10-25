@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 300px;
+}
+
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 0.5rem 2rem;
+}
+
+.navbar-logo h2 {
+  color: white;
+  margin: 0;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #555;
+}
+
+/* AddPostBox.css */
+
+.add-post-box {
+  background-color: #f7f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.add-post-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-post-box textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #d1d5da;
+  resize: vertical;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.add-post-box button {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: background-color 0.3s;
+}
+
+.add-post-box button:hover {
+  background-color: #0056b3;
+}
+
+/* AddPostBox.css */
+
+.add-post-box {
+  background-color: #f7f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.add-post-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.add-post-box input[type="text"],
+.add-post-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5da;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 14px;
+}
+
+.add-post-box button {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.add-post-box button:hover {
+  background-color: #0056b3;
+}
+
+.add-post-box div {
+  margin-bottom: 10px;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.img-preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-preview img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Base button styling */
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  outline: none;
+  /* Remove default outline */
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  /* Slight scaling on active to give feedback */
+}
+
+/* Delete button styling */
+.btn-delete {
+  background-color: #f44336;
+  /* Red */
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #da190b;
+}
+
+/* Update button styling */
+.btn-update {
+  background-color: #007bff;
+  /* Blue */
+  color: white;
+}
+
+.btn-update:hover {
+  background-color: #0056b3;
+}
+
+.card1 {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 450px;
+  width: 300px;
+}
